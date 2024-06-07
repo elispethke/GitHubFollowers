@@ -15,7 +15,7 @@ enum PersistenceActionType {
     case add, remove
 }
 
-// Enum vs Struct: an enum can't accidentally be instantiated and works as a pure namespace
+
 enum PersistenceManager {
     
     static private let defaults = UserDefaults.standard
